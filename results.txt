@@ -1,13 +1,13 @@
 ================== Ground Truth ==================
 
 a280_L1: 2820
-a280_L2: 2586.77
+a280_L2: 2586.769648
 xql662_L1: 3030
-xql662_L2: 2555.56
-kz9976_L1: 1.35076e+06
-kz9976_L2: 1.06188e+06
+xql662_L2: 2555.557248
+kz9976_L1: 1350756.080000
+kz9976_L2: 1061875.391178
 mona_lisa_L1: 7311476
-mona_lisa_L2: 5.75997e+06
+mona_lisa_L2: 5759971.494763
 
 ==================================================
 
@@ -16,8 +16,15 @@ mona_lisa_L2: 5.75997e+06
 
 Original
 
-Christofides Heuristic L1: 2862577236112, 0ms
-Christofides Heuristic L2: 0, 0ms
+mo's: 6620, 0ms
+Hilbert MO: 6620, 0ms
+
+--------------------------------------------------
+
+10000 Samples
+
+MST_based L1: 4352, 11ms
+MST_based L2: 3798.305504, 12ms
 mo's: 6620, 0ms
 Hilbert MO: 6620, 0ms
 
@@ -25,10 +32,10 @@ Hilbert MO: 6620, 0ms
 
 20 Samples
 
-Held-Karp L1: 392, 3376ms
-Held-Karp L2: 332.114, 3610ms
-Christofides Heuristic L1: 721554505760, 0ms
-Christofides Heuristic L2: 5.75997e+06, 0ms
+Held-Karp L1: 392, 3311ms
+Held-Karp L2: 332.114409, 3544ms
+MST_based L1: 400, 0ms
+MST_based L2: 356.158902, 0ms
 mo's: 432, 0ms
 Hilbert MO: 432, 0ms
 
@@ -39,8 +46,15 @@ Hilbert MO: 432, 0ms
 
 Original
 
-Christofides Heuristic L1: 2862577239952, 0ms
-Christofides Heuristic L2: 2.47033e-322, 0ms
+mo's: 5842, 0ms
+Hilbert MO: 6136, 0ms
+
+--------------------------------------------------
+
+10000 Samples
+
+MST_based L1: 4284, 68ms
+MST_based L2: 3606.014033, 74ms
 mo's: 5842, 0ms
 Hilbert MO: 6136, 0ms
 
@@ -48,10 +62,10 @@ Hilbert MO: 6136, 0ms
 
 20 Samples
 
-Held-Karp L1: 136, 3359ms
-Held-Karp L2: 132.291, 3628ms
-Christofides Heuristic L1: 722154286160, 0ms
-Christofides Heuristic L2: 1.97626e-323, 0ms
+Held-Karp L1: 136, 3277ms
+Held-Karp L2: 132.290882, 3543ms
+MST_based L1: 144, 0ms
+MST_based L2: 137.228311, 0ms
 mo's: 148, 0ms
 Hilbert MO: 148, 0ms
 
@@ -62,21 +76,28 @@ Hilbert MO: 148, 0ms
 
 Original
 
-Christofides Heuristic L1: 2.86258e+09, 0ms
-Christofides Heuristic L2: 0, 0ms
-mo's: 4.74353e+07, 7ms
-Hilbert MO: 3.12901e+06, 8ms
+mo's: 47435276, 7ms
+Hilbert MO: 3129006, 8ms
+
+--------------------------------------------------
+
+10000 Samples
+
+MST_based L1: 1832798, 22589ms
+MST_based L2: 1459852.354455, 25919ms
+mo's: 47435276, 7ms
+Hilbert MO: 3129006, 7ms
 
 --------------------------------------------------
 
 20 Samples
 
-Held-Karp L1: 2146.67, 3397ms
-Held-Karp L2: 1701.36, 3649ms
-Christofides Heuristic L1: 7.22154e+08, 0ms
-Christofides Heuristic L2: 0, 0ms
-mo's: 3746.66, 0ms
-Hilbert MO: 3013.33, 0ms
+Held-Karp L1: 2146, 3235ms
+Held-Karp L2: 1701.363496, 3498ms
+MST_based L1: 2413, 0ms
+MST_based L2: 1778.527431, 0ms
+mo's: 3746, 0ms
+Hilbert MO: 3013, 0ms
 
 ==================================================
 
@@ -85,19 +106,26 @@ Hilbert MO: 3013.33, 0ms
 
 Original
 
-Christofides Heuristic L1: 2862577239472, 0ms
-Christofides Heuristic L2: 2.47033e-322, 0ms
-mo's: 12100262, 117ms
-Hilbert MO: 15275984, 119ms
+mo's: 12100262, 118ms
+Hilbert MO: 15275984, 116ms
+
+--------------------------------------------------
+
+10000 Samples
+
+MST_based L1: 2409900, 21743ms
+MST_based L2: 1902253.628288, 25413ms
+mo's: 5963554, 10ms
+Hilbert MO: 4644856, 9ms
 
 --------------------------------------------------
 
 20 Samples
 
-Held-Karp L1: 93338, 3421ms
-Held-Karp L2: 73624.5, 3657ms
-Christofides Heuristic L1: 722154286160, 0ms
-Christofides Heuristic L2: 1.97626e-323, 0ms
+Held-Karp L1: 93338, 3233ms
+Held-Karp L2: 73624.457177, 3509ms
+MST_based L1: 109330, 0ms
+MST_based L2: 99062.603814, 0ms
 mo's: 156806, 0ms
 Hilbert MO: 153582, 0ms
 
